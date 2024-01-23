@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* about */
+
+.main-about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 723px;
+  gap: 140px;
+  background: url(img/Group.svg);
+}
+
+/* container width */
+
+.about-social {
+  max-width: 592px;
+  height: 500px;
+}
+
+.about-text {
+  max-width: 591px;
+  max-height: 510px;
+
+}
+.text-icons img {
+    width: 132px;
+    height: 253px;
+  }
+  
+  .text-icons img {
+    margin-right: 60px;
+  }
+
+/* redes */
+.about-redes {
+  position: relative;
+  background: white;
+  padding: 20px 20px;
+  border: 3px solid #9840ec;
+  border-radius: 100%;
+}
+
+
+
+/* behance */
+.box-social .facebook,
+.box-social .behance,
+.box-social .twitter,
+.box-social .uat {
+  background: white;
+  border-radius: 100%;
+  transition: 0.3s;
+  border: 3px solid #9840ec;
+  display: inline-block;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.box-social img {
+  padding: 20px 20px;
+  border-radius: 30%;
+}
+.facebook {
+  position: relative;
+  bottom: 380px;
+  left: 130px;
+  width: 90px;
+  height: 90px;
+}
+.behance {
+  position: relative;
+  bottom: 265px;
+  left: 65px;
+  width: 90px;
+  height: 90px;
+}
+.twitter {
+  position: relative;
+  bottom: 180px;
+  left: 75px;
+  width: 90px;
+  height: 90px;
+}
+.uat {
+  position: relative;
+  bottom: 180px;
+  left: 110px;
+  width: 90px;
+  height: 90px;
+}
+.plus {
+  background: #f7288e;
+  position: relative;
+  bottom: 260px;
+  left: 120px;
+  width: 90px;
+  height: 90px;
+  border: none;
+  border-radius: 100%;
+  transition: 0.3s;
+}
+/* hover */
+.plus:hover {
+  transition: 0.3s;
+  transform: rotate(45deg);
+}
+button:hover {
+  transition: 0.3s;
+  transform: scale(1.1);
+}
+/* text */
+.about-text h2 {
+  color: #a076f9;
+  font-family: Poppins, sans-serif;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.about-text p {
+  margin-top: 32px;
+  margin-bottom: 48px;
+  color: #5c5ca0;
+  font-family: Urbanist, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  line-height: 28px;
+}
